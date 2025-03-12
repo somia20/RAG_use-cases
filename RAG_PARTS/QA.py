@@ -93,7 +93,7 @@ with open('qa_pairs.txt', 'w', encoding='utf-8') as file:
         file.write("\n" + "-"*50 + "\n\n")  # Separator between QA pairs
 
 # Store QA pairs in ChromaDB
-persist_directory = "chroma_db"
+persist_directory = "chromaa_db"
 
 # Convert QA pairs to a list of text strings for Chroma
 formatted_qa_texts = [f"Q: {qa['question']}\nA: {qa['answer']}" for qa in all_qa_pairs]
