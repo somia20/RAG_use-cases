@@ -125,7 +125,7 @@ with open('mcqs.json', 'w', encoding='utf-8') as file:
     json.dump(all_mcqs, file, indent=4)
 
 # Store MCQs in ChromaDB
-persist_directory = "chromaa_db"
+persist_directory = "chroma_db"
 
 # Convert MCQs to a list of text strings for Chroma
 formatted_mcq_texts = [
