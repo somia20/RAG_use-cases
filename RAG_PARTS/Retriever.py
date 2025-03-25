@@ -47,7 +47,7 @@ async def rag(query: str, contexts: list, session_id: str) -> str:
 - Do not go beyond document.
 - Do not ask repeated questions from user,Just guide them towards the next step.
 - if needed respond the user with all the steps involved without skipping any steps.
- -If user ask anything regarding creation then ask question for the reuired field to help them create account and if user asks anything for information then provide the neccessary information from the document.
+ -f user ask anything regarding creation then ask question for the reuired field to help them create account and if user asks anything for information then provide the neccessary information from the document.
  
 
 
