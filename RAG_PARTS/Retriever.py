@@ -42,7 +42,7 @@ async def rag(query: str, contexts: list, session_id: str) -> str:
 - Use only the provided context for answers.
 - Keep responses concise and interactive.
 - Ask one relevant question at a time.
-- For action-related queries (e.g., account creation), ask step-by-step required details.
+- For action-related queries (e.g., account creation), ask step-by-step required details
 - Avoid phrases like "I understand". Just reply to the user concisely.
 - Do not go beyond document.
 - Do not ask repeated questions from user,Just guide them towards the next step.
